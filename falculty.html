@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="export" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Masonry</title>
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/masonry.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body class="page--" data-page="">
+  <div class="container">
+    <header class="clearfix">
+      <span><a href="index.html">University of Dota</a></span>
+      <h1>Falculty</h1>
+      <nav>
+        <a href="course.html">Courses</a>
+        <a href="falculty.html">Falculty</a>
+        <a href="#">Admission</a>
+      </nav>
+    </header>
+    <div class="hero">
+        <div class="hero-grid clearfix" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+          <div class="hero-grid__grid-sizer"></div>
+
+          <div class="hero-grid__item">
+            <div class="falculty">
+              <img src="images/Aatrox.png" />
+              <h1>Aatrox</h1>
+              <p>
+                Aatrox is a legendary warrior, one of only five that remain of an ancient race known as the Darkin. He wields his massive blade with grace and poise, slicing through legions in a style that is hypnotic to behold. With each foe felled, Aatrox's seemingly living blade drinks in their blood, empowering him and fueling his brutal, elegant campaign of slaughter.
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-grid__item">
+            <div class="falculty">
+              <img src="images/Ahri.png" />
+              <h1>Ahri</h1>
+              <p>
+                Unlike other foxes that roamed the woods of southern Ionia, Ahri had always felt a strange connection to the magical world around her; a connection that was somehow incomplete. Deep inside, she felt the skin she had been born into was an ill fit for her and dreamt of one day becoming human. Her goal seemed forever out of reach, until she happened upon the wake of a human battle. It was a grisly scene, the land obscured by the forms of wounded and dying soldiers.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="hero-grid__item">
+            <div class="falculty">
+              <img src="images/Akali.png" />
+              <h1>Akali</h1>
+              <p>
+                There exists an ancient order originating in the Ionian Isles dedicated to the preservation of balance. Order, chaos, light, darkness -- all things must exist in perfect harmony for such is the way of the universe. This order is known as the Kinkou and it employs a triumvirate of shadow warriors to uphold its causes in the world. 
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-grid__item">
+            <div class="falculty">
+              <img src="images/Alistar.png" />
+              <h1>Alistar</h1>
+              <p>
+                As the mightiest warrior to ever emerge from the Minotaur tribes of the Great Barrier, Alistar defended his tribe from Valoran's many dangers; that is, until the coming of the Noxian army. Alistar was lured from his village by the machinations of Keiran Darkwill, General Boram Darkwill's youngest son and commander of the Noxian expeditionary force. 
+              </p>
+            </div>
+          </div>
+
+
+          <div class="hero-grid__item">
+            <div class="falculty">
+              <img src="images/Amumu.png" />
+              <h1>Amumu</h1>
+              <p>
+                A lonely and melancholy soul from ancient Shurima, Amumu roams the world in search of a friend. Cursed by an ancient spell, he is doomed to remain alone forever, as his touch is death and his affection ruin 
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-grid__item">
+            <div class="falculty">
+              <img src="images/Anivia.png" />
+              <h1>Anivia</h1>
+              <p>
+                Anivia is a being of the coldest winter, a mystical embodiment of ice magic, and an ancient protector of the Freljord. She commands all the power and fury of the land itself, calling the snow and bitter wind to defend her home from those who would harm it. A benevolent but mysterious creature, Anivia is eternally bound to keep vigil over the Freljord through life, death, and rebirth. 
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-grid__item">
+            <div class="falculty">
+              <img src="images/Annie.png" />
+              <h1>Annie</h1>
+              <p>
+                There have always been those within Noxus who did not agree with the evils perpetrated by the Noxian High Command. The High Command had just put down a coup attempt from the self-proclaimed Crown Prince Raschallion, and a crackdown on any form of dissent against the new government was underway. These political and social outcasts, known as the Gray Order, sought to leave their neighbors in peace as they pursued dark arcane knowledge.
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-grid__item">
+            <div class="falculty">
+              <img src="images/Ashe.png" />
+              <h1>Ashe</h1>
+              <p>
+                With each arrow she fires from her ancient ice-enchanted bow, Ashe proves she is a master archer. She chooses each target carefully, waits for the right moment, and then strikes with power and precision. It is with this same vision and focus that she pursues her goal of uniting the tribes of the Freljord and forging them into a mighty nation.
+              </p>
+            </div>
+          </div>                    
+
+        </div>
+    </div> 
+  </div>
+</body>
+<script src="js/masonry-pkgd.min.js"></script>
+<script>
+  $('.hero-grid').masonry({
+    // options
+    itemSelector: '.hero-grid__item',
+  });
+</script>
+</html>

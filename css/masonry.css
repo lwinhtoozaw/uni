@@ -1,0 +1,72 @@
+.falculty {
+  text-align: center;
+}
+
+.falculty img {
+    border-radius: 50%;
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+
+.falculty h1 {
+  font-weight: 300;
+}
+
+/* hero
+------------------------- */
+
+.hero-grid {
+  padding: 10px 1%;
+  margin: 20px 0;
+  background: white;
+  border-radius: 10px;
+}
+
+/* necessary for proper sizing with margins */
+.hero-grid__grid-sizer {
+  position: absolute;
+}
+
+.hero-grid__item,
+.hero-grid__grid-sizer {
+  width: 47%;
+  margin: 0 1% 20px 1%;
+}
+
+.hero-grid__gutter-sizer {
+  width: 2%;
+}
+
+.hero-grid__item {
+  float: left;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+
+.hero-grid__item--width2,
+.hero-grid__item--width3 {
+  width: 96%;
+}
+
+/* enough width for 4 columns */
+@media screen and ( min-width: 768px ) {
+
+  .hero-grid__grid-sizer,
+  .hero-grid__item {
+    width: 22.5%;
+  }
+
+  .hero-grid__item--width2 {
+    width: 47%;
+  }
+
+
+  .hero-grid__item--width3 {
+    width: 71.5%;
+  }
+
+}
